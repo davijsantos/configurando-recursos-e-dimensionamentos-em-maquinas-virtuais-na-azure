@@ -32,7 +32,7 @@ Na Contagem de Instâncias, é possível definir o número de máquinas virtuais
 
 ![image](https://github.com/user-attachments/assets/ed7a6e37-0af9-4b26-849d-ecbfc41797dd)
 
-Esse número define um número fixo, mas ele se torna escalável quando configuramos o dimensionamento automático. 
+Esse número define um número fixo, mas ele se torna escalável quando se configura o dimensionamento automático. 
 
 ![image](https://github.com/user-attachments/assets/6d8dcbfc-a4f5-455c-a773-05c76356c994)
 
@@ -88,12 +88,41 @@ Na aba de Monitoramento, é possível criar regras de alertas para monitorar o c
 
 ![image](https://github.com/user-attachments/assets/3157f6c4-b943-46dd-a877-581bad36b062)
 
+Na aba "Avançado", há a opção "Extensões", onde se pode definir softwares que serão instalados após o provisionamento da máquina virtual.
 
+![image](https://github.com/user-attachments/assets/6e59bda3-519e-43d8-ae54-38f75d0db811)
 
+![image](https://github.com/user-attachments/assets/68cdca7f-07fc-4b0d-a15b-798a057f50ee)
 
+Em "Marcas", tem-se disponibilizada a possibilidade de criar tags para melhor gerenciamento dos recursos.
 
+![image](https://github.com/user-attachments/assets/c55174dc-cc25-438e-8ecc-97c20821bd79)
 
+Em "Revisar + criar", recebe-se uma previsão de custo por hora conforme a configuração da máquina virtual que foi realizada previamente. Ao final identifica-se um relatório com todas as configurações da máquina virtual.
 
+![image](https://github.com/user-attachments/assets/8f51de40-ee81-4dc0-aa5c-3b64f6d076ab)
 
+## Criando pool de hosts
 
+Acessando a Área de Trabalho Virtual do Azure, é possível identificar a opção para criação de pool de hosts.
+
+![image](https://github.com/user-attachments/assets/ce6433d6-0cfa-4a0e-ad13-3d369a1dc374)
+
+Em "Tipo de pool de hosts", é possível definir se o pool será destinado para uma pessoa específica, que talvez utilize uma aplicação específica que será utilizada apenas por esta pessoa. Do contrário, se várias pessoas vão utilizar a máquina virtual é possível definir um balanceamento de carga específico para gerenciar os múltiplos acessos. Na aba posterior, é possível vincular máquinas virtuais a este pool.
+
+![image](https://github.com/user-attachments/assets/c3e0c28b-a8e6-4af9-adb5-8d1c8fcf2271)
+
+## Criando um Aplicativo de Funções
+
+Um aplicativo de funções permite que um código seja executado sem que seja necessário provisionar uma máquina virtual ou publicar um aplicativo web. Ao clicar no botão a seguir, é possível criar um aplicativo de funções.
+
+![image](https://github.com/user-attachments/assets/6da6e170-2121-4805-917d-758e8e9cf681)
+
+Define-se o nome do aplicativo.
+
+![image](https://github.com/user-attachments/assets/fbbd3839-3f86-4d57-a785-20be7e7c2ad5)
+
+Escolhe-se a pilha de runtime, que define o ambiente de execução no qual o código da função será executado.
+
+![image](https://github.com/user-attachments/assets/95fcbe7e-370f-4aa2-b94c-32fdceaa61ff)
 
