@@ -50,4 +50,50 @@ Em Tamanho, é possível definir recursos para a máquina virtual, como CPU e Me
 
 Em "Ver todos os tamanhos", é possível visualizar todas as opções de configuração de recursos disponíveis para criação de uma máquina virtual.
 
+![image](https://github.com/user-attachments/assets/ef67da80-498c-4611-b997-5c5531a81d23)
+
+Em "Conta de administrador", é possível definir o método de autenticação para de forma segura estabelecer conexão com a máquina virtual criada.
+
+![image](https://github.com/user-attachments/assets/ed5f4953-f4bf-4451-aff7-37bde4f5c0c9)
+
+Em "Regras de portas de entrada", define-se as portas TCP que podem ser acessadas pela internet pública.
+
+![image](https://github.com/user-attachments/assets/4f5d984e-aa4f-4202-8ec2-c3474171899b)
+
+A próxima etapa consistem em criar o disco de armazenamento para a máquina virtual. Neste ponto é interessante manter marcada a opção "Excluir com VM"; isto porque a os discos existem indepentendemente da máquina virtual. Sem que esta opção esteja marcada, quando da exclusão da máquina virtual, o disco permanecerá existindo.
+
+![image](https://github.com/user-attachments/assets/7774caac-c481-4f5d-b96a-bec3a5384886)
+
+Na seção a seguir, é possível criar e/ou adicionar outros discos de armazenamento.
+
+![image](https://github.com/user-attachments/assets/97be9ce5-023a-4b03-bfd9-4c88f29d0376)
+
+Nos passos a seguir é possível criar a rede privada da qual a máquina fará parte. No campo de IP público é possível criar e atribuir o IP público que tornará viável acessar a máquina virtual pela internet. Posteriormente é importante prestar atenção na opção "Excluir o IP público e a NIC quando a VM for excluída". Caso esta opção esteja desmarcada, caso a máquina virtual seja excluída NIC e IP público continuaram existindo.
+
+![image](https://github.com/user-attachments/assets/35f942e1-7473-4fd7-96db-5b0052df3f94)
+
+![image](https://github.com/user-attachments/assets/6d80d12e-1284-4cf8-9ad8-628f76e58757)
+
+![image](https://github.com/user-attachments/assets/90446db5-9e4b-4732-8c73-6dd2ea662d63)
+
+No passo seguinte, é possível configurar opções de gerenciamento. Na imagem a seguir, é possível visualizar a opção que permite que se utilize o MS Entra ID para logar na máquina virtual.
+
+![image](https://github.com/user-attachments/assets/bf12bccb-c5d0-4146-bcf3-d488ccc42aa2)
+
+É possível habilitar o serviço de desligamento automático e configurar o período de desligamento.
+
+![image](https://github.com/user-attachments/assets/99c50930-8196-4f11-ba75-14bbfcb7f7fd)
+
+Na aba de Monitoramento, é possível criar regras de alertas para monitorar o consumo dos recursos ligados à máquina virtual.
+
+![image](https://github.com/user-attachments/assets/3157f6c4-b943-46dd-a877-581bad36b062)
+
+
+
+
+
+
+
+
+
 
